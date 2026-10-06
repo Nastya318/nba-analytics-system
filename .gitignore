@@ -1,0 +1,26 @@
+#виртуальное окружение
+venv/
+env/
+.venv/
+
+#секретные ключи и конфиги с паролями
+.env
+
+#данные и логи (тяжелые файлы не хранят в Git)
+*.csv
+*.parquet
+*.db
+*.sqlite
+logs/*.log
+
+#системные файлы
+.DS_Store
+__pycache__/
+*.pyc
+
+
+
+#сырые данные (не загружаем в Git)
+storage/raw/*.csv
+storage/raw/*.json
+storage/raw/kaggle/

@@ -1,0 +1,16 @@
+data_sources:
+  kaggle:
+    dataset: "sumitrodatta/nba-aba-baa-stats"
+    files_to_load:
+      - "Player Per Game.csv"
+      - "Player Season Info.csv"
+  balldontlie:
+    base_url: "https://api.balldontlie.io/v1"
+    rate_limit_delay: 12
+
+database:
+  url: "sqlite:///./storage/nba_data.db"
+
+processing:
+  batch_size: 1000
+  log_file: "logs/ingestion.log"
