@@ -1,4 +1,4 @@
-\#  NBA Predictive Analytics System
+#  NBA Predictive Analytics System
 
 
 
@@ -6,7 +6,7 @@
 
 
 
-\##  Технологический стек
+##  Технологический стек
 
 
 
